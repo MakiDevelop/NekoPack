@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0987EE10CD9C2C70DAC45D61 /* ExtractView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503B540ED2C028BFCE678C11 /* ExtractView.swift */; };
+		0E04D5DA038AA3F14497CBD1 /* CompressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E76B55B186091D55F008ECF /* CompressView.swift */; };
+		16CA627490BDFD5D7DD5A1BB /* ExtractionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65CD9755A0EF8926C9420A5 /* ExtractionError.swift */; };
+		19D80DFF3213A2B19E1F0F32 /* NekoPackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_320013CD-F9E9-41C7-957E-74976CB38837" /* NekoPackApp.swift */; };
+		1A7C6E54EC45987C1092B4BE /* ExtractionModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83C32D8AA226C38DF5AB15A /* ExtractionModels.swift */; };
+		354275B68EFDBB6E47A7C57D /* ArchiveDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1069274C30914A23667AF8F7 /* ArchiveDetector.swift */; };
+		6CFB42A843CBE59FCC6CDC80 /* PasswordHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DE238678D055772BF1E331 /* PasswordHandler.swift */; };
+		7989ED4B5623DE51D7686443 /* CompressionFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8406A77B18880E4808961D34 /* CompressionFormat.swift */; };
+		9464489B855F8AAB8C9B92E0 /* FileAccessManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E5869CB7AED6BC71FC8AA1 /* FileAccessManager.swift */; };
+		BB0F838E3FAC994165FC7198 /* ExtractionConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA245FCC3CB1F0A6F2C0DF44 /* ExtractionConstants.swift */; };
+		CC711A7D35ECB74F6D90B7AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_20A7594A-241A-42FB-9DFB-2BDFD87B263A" /* ContentView.swift */; };
+		D79D642FDB7A92032D50361B /* ProcessOutputParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A97362C600C4930A04A61A3 /* ProcessOutputParser.swift */; };
+		D8A7AD4D9EA549FFDFE974A0 /* ExtractionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5486D6EC6CC314D6B5542D2E /* ExtractionManager.swift */; };
+		DDE2CC48FA036B5EFA91F29D /* ArchiveType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA1BB9A6B1988568EC47449 /* ArchiveType.swift */; };
+		E22211CFCCFCC42972E119E1 /* CompressionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5964AEEA4FFA5A29D7B8CA8E /* CompressionManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1069274C30914A23667AF8F7 /* ArchiveDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveDetector.swift; sourceTree = "<group>"; };
+		503B540ED2C028BFCE678C11 /* ExtractView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractView.swift; sourceTree = "<group>"; };
+		51DE238678D055772BF1E331 /* PasswordHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordHandler.swift; sourceTree = "<group>"; };
+		5486D6EC6CC314D6B5542D2E /* ExtractionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractionManager.swift; sourceTree = "<group>"; };
+		5964AEEA4FFA5A29D7B8CA8E /* CompressionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompressionManager.swift; sourceTree = "<group>"; };
+		5A97362C600C4930A04A61A3 /* ProcessOutputParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessOutputParser.swift; sourceTree = "<group>"; };
+		6E76B55B186091D55F008ECF /* CompressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompressView.swift; sourceTree = "<group>"; };
+		7DA1BB9A6B1988568EC47449 /* ArchiveType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveType.swift; sourceTree = "<group>"; };
+		8406A77B18880E4808961D34 /* CompressionFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompressionFormat.swift; sourceTree = "<group>"; };
+		A65CD9755A0EF8926C9420A5 /* ExtractionError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractionError.swift; sourceTree = "<group>"; };
+		BC92BD8BC267D9D65867FE1B /* NekoPack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NekoPack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E5869CB7AED6BC71FC8AA1 /* FileAccessManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileAccessManager.swift; sourceTree = "<group>"; };
+		F83C32D8AA226C38DF5AB15A /* ExtractionModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractionModels.swift; sourceTree = "<group>"; };
+		FA245FCC3CB1F0A6F2C0DF44 /* ExtractionConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractionConstants.swift; sourceTree = "<group>"; };
+		"TEMP_20A7594A-241A-42FB-9DFB-2BDFD87B263A" /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		"TEMP_320013CD-F9E9-41C7-957E-74976CB38837" /* NekoPackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NekoPackApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		26F42A9C80010B73393C6CC5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FA245FCC3CB1F0A6F2C0DF44 /* ExtractionConstants.swift */,
+				51DE238678D055772BF1E331 /* PasswordHandler.swift */,
+				5A97362C600C4930A04A61A3 /* ProcessOutputParser.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		37E48DB3A814244463CAE65C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7DA1BB9A6B1988568EC47449 /* ArchiveType.swift */,
+				8406A77B18880E4808961D34 /* CompressionFormat.swift */,
+				A65CD9755A0EF8926C9420A5 /* ExtractionError.swift */,
+				F83C32D8AA226C38DF5AB15A /* ExtractionModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		50E4272D338F6A03719BF943 = {
+			isa = PBXGroup;
+			children = (
+				E07CB76A8DF3CEBB1C1EF2CB /* Managers */,
+				37E48DB3A814244463CAE65C /* Models */,
+				26F42A9C80010B73393C6CC5 /* Utilities */,
+				80332D9F146677623B85066C /* Views */,
+				6AC50359EC8743CE4D647CD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6AC50359EC8743CE4D647CD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC92BD8BC267D9D65867FE1B /* NekoPack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80332D9F146677623B85066C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6E76B55B186091D55F008ECF /* CompressView.swift */,
+				503B540ED2C028BFCE678C11 /* ExtractView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E07CB76A8DF3CEBB1C1EF2CB /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				1069274C30914A23667AF8F7 /* ArchiveDetector.swift */,
+				5964AEEA4FFA5A29D7B8CA8E /* CompressionManager.swift */,
+				5486D6EC6CC314D6B5542D2E /* ExtractionManager.swift */,
+				F7E5869CB7AED6BC71FC8AA1 /* FileAccessManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		"TEMP_3475D854-52A3-4A76-BC5C-553B175AE2AF" /* . */ = {
+			isa = PBXGroup;
+			children = (
+				"TEMP_320013CD-F9E9-41C7-957E-74976CB38837" /* NekoPackApp.swift */,
+				"TEMP_20A7594A-241A-42FB-9DFB-2BDFD87B263A" /* ContentView.swift */,
+				E07CB76A8DF3CEBB1C1EF2CB /* Managers */,
+				37E48DB3A814244463CAE65C /* Models */,
+				26F42A9C80010B73393C6CC5 /* Utilities */,
+				80332D9F146677623B85066C /* Views */,
+			);
+			name = .;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5451BBC49996B9D3B1A51FA0 /* NekoPack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4067F2E93F63DA3C830E8BC /* Build configuration list for PBXNativeTarget "NekoPack" */;
+			buildPhases = (
+				6274C4A5F9CC0BDA0C47E90E /* Sources */,
+				8391A502B716E1731E13CA80 /* Bundle Compression Tools */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NekoPack;
+			packageProductDependencies = (
+			);
+			productName = NekoPack;
+			productReference = BC92BD8BC267D9D65867FE1B /* NekoPack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9A2B5E03759E9ED586D9886 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					5451BBC49996B9D3B1A51FA0 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = DFE8F422647D2D7F17953583 /* Build configuration list for PBXProject "NekoPack" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 50E4272D338F6A03719BF943;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6AC50359EC8743CE4D647CD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5451BBC49996B9D3B1A51FA0 /* NekoPack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8391A502B716E1731E13CA80 /* Bundle Compression Tools */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle Compression Tools";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Tools\"\ncp -f \"${SRCROOT}/Resources/Tools/7zz\" \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Tools/7zz\"\ncp -f \"${SRCROOT}/Resources/Tools/unrar\" \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Tools/unrar\"\nchmod +x \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Tools/7zz\"\nchmod +x \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Tools/unrar\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6274C4A5F9CC0BDA0C47E90E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				354275B68EFDBB6E47A7C57D /* ArchiveDetector.swift in Sources */,
+				DDE2CC48FA036B5EFA91F29D /* ArchiveType.swift in Sources */,
+				0E04D5DA038AA3F14497CBD1 /* CompressView.swift in Sources */,
+				7989ED4B5623DE51D7686443 /* CompressionFormat.swift in Sources */,
+				E22211CFCCFCC42972E119E1 /* CompressionManager.swift in Sources */,
+				CC711A7D35ECB74F6D90B7AB /* ContentView.swift in Sources */,
+				0987EE10CD9C2C70DAC45D61 /* ExtractView.swift in Sources */,
+				BB0F838E3FAC994165FC7198 /* ExtractionConstants.swift in Sources */,
+				16CA627490BDFD5D7DD5A1BB /* ExtractionError.swift in Sources */,
+				D8A7AD4D9EA549FFDFE974A0 /* ExtractionManager.swift in Sources */,
+				1A7C6E54EC45987C1092B4BE /* ExtractionModels.swift in Sources */,
+				9464489B855F8AAB8C9B92E0 /* FileAccessManager.swift in Sources */,
+				19D80DFF3213A2B19E1F0F32 /* NekoPackApp.swift in Sources */,
+				6CFB42A843CBE59FCC6CDC80 /* PasswordHandler.swift in Sources */,
+				D79D642FDB7A92032D50361B /* ProcessOutputParser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5E4EC98BCA3EEB929DA9C854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = NekoPack;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		6F424DF01387A97AD6809303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = NekoPack;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSMinimumSystemVersion = 14.0;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 千葉牧人. All rights reserved.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.makidevelop.NekoPack;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DE3B7BD89236FECBD1784E0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = NekoPack;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSMinimumSystemVersion = 14.0;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 千葉牧人. All rights reserved.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.makidevelop.NekoPack;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E14EB73EE91068A7FBE1419F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = NekoPack;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFE8F422647D2D7F17953583 /* Build configuration list for PBXProject "NekoPack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E14EB73EE91068A7FBE1419F /* Debug */,
+				5E4EC98BCA3EEB929DA9C854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E4067F2E93F63DA3C830E8BC /* Build configuration list for PBXNativeTarget "NekoPack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F424DF01387A97AD6809303 /* Debug */,
+				DE3B7BD89236FECBD1784E0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9A2B5E03759E9ED586D9886 /* Project object */;
+}

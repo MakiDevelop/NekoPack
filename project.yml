@@ -1,0 +1,48 @@
+name: NekoPack
+options:
+  bundleIdPrefix: com.makidevelop
+  deploymentTarget:
+    macOS: "14.0"
+  xcodeVersion: "16.0"
+  createIntermediateGroups: true
+
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    MACOSX_DEPLOYMENT_TARGET: "14.0"
+    PRODUCT_NAME: NekoPack
+    MARKETING_VERSION: "1.0.0"
+    CURRENT_PROJECT_VERSION: "1"
+    DEVELOPMENT_TEAM: ""
+    CODE_SIGN_IDENTITY: "-"
+    CODE_SIGN_STYLE: Manual
+    ENABLE_HARDENED_RUNTIME: false
+    ENABLE_APP_SANDBOX: false
+
+targets:
+  NekoPack:
+    type: application
+    platform: macOS
+    sources:
+      - path: .
+        excludes:
+          - project.yml
+          - "*.xcodeproj/**"
+          - ".git/**"
+          - ".gitignore"
+          - "Resources/**"
+    postCompileScripts:
+      - script: |
+          mkdir -p "${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Tools"
+          cp -f "${SRCROOT}/Resources/Tools/7zz" "${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Tools/7zz"
+          cp -f "${SRCROOT}/Resources/Tools/unrar" "${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Tools/unrar"
+          chmod +x "${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Tools/7zz"
+          chmod +x "${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Tools/unrar"
+        name: Bundle Compression Tools
+    settings:
+      base:
+        INFOPLIST_KEY_CFBundleDisplayName: NekoPack
+        INFOPLIST_KEY_LSApplicationCategoryType: "public.app-category.utilities"
+        GENERATE_INFOPLIST_FILE: true
+        INFOPLIST_KEY_NSHumanReadableCopyright: "Copyright © 2026 千葉牧人. All rights reserved."
+        INFOPLIST_KEY_LSMinimumSystemVersion: "14.0"
