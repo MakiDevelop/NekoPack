@@ -148,7 +148,7 @@ struct ExtractView: View {
                     .foregroundColor(.white)
                     .cornerRadius(6)
                 }
-                .buttonStyle(.plain)
+                .buttonStyle(.borderless)
             }
         }
     }
@@ -182,7 +182,7 @@ struct ExtractView: View {
             .foregroundColor(.white)
             .cornerRadius(12)
         }
-        .buttonStyle(.plain)
+        .buttonStyle(.borderless)
         .disabled(archiveURLs.isEmpty)
     }
 

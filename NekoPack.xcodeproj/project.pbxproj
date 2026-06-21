@@ -11,14 +11,13 @@
 		0E04D5DA038AA3F14497CBD1 /* CompressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E76B55B186091D55F008ECF /* CompressView.swift */; };
 		16CA627490BDFD5D7DD5A1BB /* ExtractionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65CD9755A0EF8926C9420A5 /* ExtractionError.swift */; };
 		1A7C6E54EC45987C1092B4BE /* ExtractionModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83C32D8AA226C38DF5AB15A /* ExtractionModels.swift */; };
+		30788A96C6149530A7DCEC56 /* NekoPackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_D17BEF90-F835-42F6-B32B-CA7E90FE6547" /* NekoPackApp.swift */; };
 		354275B68EFDBB6E47A7C57D /* ArchiveDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1069274C30914A23667AF8F7 /* ArchiveDetector.swift */; };
-		4866B05FBC102EBB90BE2B05 /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = "TEMP_12221293-7C84-451C-A1DC-4D2FEE4E06F5" /* AppIcon.png */; };
-		4B6B9D10901A830D1E964BED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = "TEMP_04DB07F8-E968-4C0F-A498-AC4E1EA672CF" /* Assets.xcassets */; };
-		5E04E7A87E0BDC37B504F7E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_B907F018-F865-41DA-80DC-45826B2E36AF" /* ContentView.swift */; };
-		5E81DF9CFA0F776201140D0C /* NekoPackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_42D7861F-D87E-4AA8-A324-3A2447970B32" /* NekoPackApp.swift */; };
 		6CFB42A843CBE59FCC6CDC80 /* PasswordHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DE238678D055772BF1E331 /* PasswordHandler.swift */; };
 		7989ED4B5623DE51D7686443 /* CompressionFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8406A77B18880E4808961D34 /* CompressionFormat.swift */; };
+		7BD210D27A8A37753C116BD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_786E71D7-6BC2-4548-B1B0-C6B8D4EE8D46" /* ContentView.swift */; };
 		9464489B855F8AAB8C9B92E0 /* FileAccessManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E5869CB7AED6BC71FC8AA1 /* FileAccessManager.swift */; };
+		96530E886E9024273E26A638 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = "TEMP_F62C33CF-B5F2-4FBD-9208-2C4F55988C18" /* Assets.xcassets */; };
 		BB0F838E3FAC994165FC7198 /* ExtractionConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA245FCC3CB1F0A6F2C0DF44 /* ExtractionConstants.swift */; };
 		D79D642FDB7A92032D50361B /* ProcessOutputParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A97362C600C4930A04A61A3 /* ProcessOutputParser.swift */; };
 		D8A7AD4D9EA549FFDFE974A0 /* ExtractionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5486D6EC6CC314D6B5542D2E /* ExtractionManager.swift */; };
@@ -41,10 +40,10 @@
 		F7E5869CB7AED6BC71FC8AA1 /* FileAccessManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileAccessManager.swift; sourceTree = "<group>"; };
 		F83C32D8AA226C38DF5AB15A /* ExtractionModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractionModels.swift; sourceTree = "<group>"; };
 		FA245FCC3CB1F0A6F2C0DF44 /* ExtractionConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractionConstants.swift; sourceTree = "<group>"; };
-		"TEMP_04DB07F8-E968-4C0F-A498-AC4E1EA672CF" /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		"TEMP_12221293-7C84-451C-A1DC-4D2FEE4E06F5" /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
-		"TEMP_42D7861F-D87E-4AA8-A324-3A2447970B32" /* NekoPackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NekoPackApp.swift; sourceTree = "<group>"; };
-		"TEMP_B907F018-F865-41DA-80DC-45826B2E36AF" /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		"TEMP_786E71D7-6BC2-4548-B1B0-C6B8D4EE8D46" /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		"TEMP_87604629-C19D-4E25-86CC-8B8EAFAAFDA8" /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		"TEMP_D17BEF90-F835-42F6-B32B-CA7E90FE6547" /* NekoPackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NekoPackApp.swift; sourceTree = "<group>"; };
+		"TEMP_F62C33CF-B5F2-4FBD-9208-2C4F55988C18" /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -108,13 +107,13 @@
 			path = Managers;
 			sourceTree = "<group>";
 		};
-		"TEMP_BE90C999-83E5-46C8-BE3E-E351CE41B2CD" /* . */ = {
+		"TEMP_581869F3-B58C-4650-B545-41883D11C35E" /* . */ = {
 			isa = PBXGroup;
 			children = (
-				"TEMP_04DB07F8-E968-4C0F-A498-AC4E1EA672CF" /* Assets.xcassets */,
-				"TEMP_42D7861F-D87E-4AA8-A324-3A2447970B32" /* NekoPackApp.swift */,
-				"TEMP_12221293-7C84-451C-A1DC-4D2FEE4E06F5" /* AppIcon.png */,
-				"TEMP_B907F018-F865-41DA-80DC-45826B2E36AF" /* ContentView.swift */,
+				"TEMP_F62C33CF-B5F2-4FBD-9208-2C4F55988C18" /* Assets.xcassets */,
+				"TEMP_D17BEF90-F835-42F6-B32B-CA7E90FE6547" /* NekoPackApp.swift */,
+				"TEMP_786E71D7-6BC2-4548-B1B0-C6B8D4EE8D46" /* ContentView.swift */,
+				"TEMP_87604629-C19D-4E25-86CC-8B8EAFAAFDA8" /* Info.plist */,
 				E07CB76A8DF3CEBB1C1EF2CB /* Managers */,
 				37E48DB3A814244463CAE65C /* Models */,
 				26F42A9C80010B73393C6CC5 /* Utilities */,
@@ -132,7 +131,7 @@
 			buildConfigurationList = E4067F2E93F63DA3C830E8BC /* Build configuration list for PBXNativeTarget "NekoPack" */;
 			buildPhases = (
 				6274C4A5F9CC0BDA0C47E90E /* Sources */,
-				8391A502B716E1731E13CA80 /* Bundle Compression Tools */,
+				E2F4A4C64E5C1ADE92E50691 /* Bundle Resources */,
 				9BD5479934BABF9B70F8A76D /* Resources */,
 			);
 			buildRules = (
@@ -185,15 +184,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4866B05FBC102EBB90BE2B05 /* AppIcon.png in Resources */,
-				4B6B9D10901A830D1E964BED /* Assets.xcassets in Resources */,
+				96530E886E9024273E26A638 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8391A502B716E1731E13CA80 /* Bundle Compression Tools */ = {
+		E2F4A4C64E5C1ADE92E50691 /* Bundle Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -202,14 +200,14 @@
 			);
 			inputPaths = (
 			);
-			name = "Bundle Compression Tools";
+			name = "Bundle Resources";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "mkdir -p \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Tools\"\ncp -f \"${SRCROOT}/Resources/Tools/7zz\" \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Tools/7zz\"\ncp -f \"${SRCROOT}/Resources/Tools/unrar\" \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Tools/unrar\"\nchmod +x \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Tools/7zz\"\nchmod +x \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Tools/unrar\"\n";
+			shellScript = "mkdir -p \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Tools\"\ncp -f \"${SRCROOT}/Resources/Tools/7zz\" \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Tools/7zz\"\ncp -f \"${SRCROOT}/Resources/Tools/unrar\" \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Tools/unrar\"\nchmod +x \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Tools/7zz\"\nchmod +x \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Tools/unrar\"\ncp -f \"${SRCROOT}/Resources/AppIcon.icns\" \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AppIcon.icns\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -223,14 +221,14 @@
 				0E04D5DA038AA3F14497CBD1 /* CompressView.swift in Sources */,
 				7989ED4B5623DE51D7686443 /* CompressionFormat.swift in Sources */,
 				E22211CFCCFCC42972E119E1 /* CompressionManager.swift in Sources */,
-				5E04E7A87E0BDC37B504F7E6 /* ContentView.swift in Sources */,
+				7BD210D27A8A37753C116BD0 /* ContentView.swift in Sources */,
 				0987EE10CD9C2C70DAC45D61 /* ExtractView.swift in Sources */,
 				BB0F838E3FAC994165FC7198 /* ExtractionConstants.swift in Sources */,
 				16CA627490BDFD5D7DD5A1BB /* ExtractionError.swift in Sources */,
 				D8A7AD4D9EA549FFDFE974A0 /* ExtractionManager.swift in Sources */,
 				1A7C6E54EC45987C1092B4BE /* ExtractionModels.swift in Sources */,
 				9464489B855F8AAB8C9B92E0 /* FileAccessManager.swift in Sources */,
-				5E81DF9CFA0F776201140D0C /* NekoPackApp.swift in Sources */,
+				30788A96C6149530A7DCEC56 /* NekoPackApp.swift in Sources */,
 				6CFB42A843CBE59FCC6CDC80 /* PasswordHandler.swift in Sources */,
 				D79D642FDB7A92032D50361B /* ProcessOutputParser.swift in Sources */,
 			);
@@ -308,6 +306,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = NekoPack;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_LSMinimumSystemVersion = 14.0;
@@ -327,6 +326,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = NekoPack;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_LSMinimumSystemVersion = 14.0;

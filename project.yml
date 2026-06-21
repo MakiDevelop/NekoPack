@@ -31,6 +31,9 @@ targets:
           - ".git/**"
           - ".gitignore"
           - "Resources/**"
+          - "AppIcon.iconset/**"
+          - "AppIcon.png"
+          - "AppIcon_real.png"
     postCompileScripts:
       - script: |
           mkdir -p "${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Tools"
@@ -38,11 +41,17 @@ targets:
           cp -f "${SRCROOT}/Resources/Tools/unrar" "${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Tools/unrar"
           chmod +x "${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Tools/7zz"
           chmod +x "${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Tools/unrar"
-        name: Bundle Compression Tools
+          cp -f "${SRCROOT}/Resources/AppIcon.icns" "${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AppIcon.icns"
+        name: Bundle Resources
     settings:
       base:
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         INFOPLIST_KEY_CFBundleDisplayName: NekoPack
         INFOPLIST_KEY_LSApplicationCategoryType: "public.app-category.utilities"
         GENERATE_INFOPLIST_FILE: true
         INFOPLIST_KEY_NSHumanReadableCopyright: "Copyright © 2026 千葉牧人. All rights reserved."
         INFOPLIST_KEY_LSMinimumSystemVersion: "14.0"
+    info:
+      path: Info.plist
+      properties:
+        CFBundleIconFile: AppIcon

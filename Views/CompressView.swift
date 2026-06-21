@@ -175,7 +175,7 @@ struct CompressView: View {
                     .foregroundColor(.white)
                     .cornerRadius(6)
                 }
-                .buttonStyle(.plain)
+                .buttonStyle(.borderless)
             }
         }
     }
@@ -207,7 +207,7 @@ struct CompressView: View {
             .foregroundColor(.white)
             .cornerRadius(12)
         }
-        .buttonStyle(.plain)
+        .buttonStyle(.borderless)
         .disabled(sourceURLs.isEmpty || outputDirectory == nil || outputFileName.isEmpty)
     }
 
